@@ -1,0 +1,31 @@
+### GET ALL BOOKS
+GET http://localhost:8080/api/books
+
+### GET SINGLE BOOK
+GET http://localhost:8080/api/books/1
+
+### CREATE BOOK
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "name": "Name3",
+  "author": "Author3",
+  "pages": 3365,
+  "publishDate": "2020-08-24"
+}
+
+### UPDATE BOOK
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+  "name": "Name99",
+  "author": "Author2",
+  "pages": 1111,
+  "publishDate": "2020-01-14"
+}
+
+
+### DELETE BOOK
+DELETE http://localhost:8080/api/books/3
