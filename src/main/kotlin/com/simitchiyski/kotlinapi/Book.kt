@@ -1,13 +1,9 @@
 package com.simitchiyski.kotlinapi
 
-import lombok.AllArgsConstructor
-import lombok.NoArgsConstructor
 import java.time.LocalDate
 import javax.persistence.*
 
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 @Table(name = "book")
 data class Book(
         @Id
